@@ -11,7 +11,7 @@ from vllm import LLM, SamplingParams
 
 ds_collections = {
     "MMK12": {
-        "root": "FanqingM/MMK12",
+        "root": "path/to/MMK12",  # Replace with actual path to MMK12 dataset
         "split": "test",
     }
 }
